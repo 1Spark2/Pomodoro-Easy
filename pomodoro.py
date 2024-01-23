@@ -120,9 +120,9 @@ def reiniciar():
     mostrar_tiempo(tiempo_restante)
 
 # Configuración inicial
-duracion_trabajo = 1 * 60
-duracion_pensamiento_critico = 1 * 60
-duracion_descanso = 1 * 60
+duracion_trabajo = 25 * 60
+duracion_pensamiento_critico = 5 * 60
+duracion_descanso = 5 * 60
 tiempo_restante = duracion_trabajo
 fase_actual = 0
 en_pausa = False
